@@ -1,7 +1,5 @@
-﻿string line1 = Console.ReadLine();
-string line2 = Console.ReadLine();
-string[] first = line1.Split(" ");
-string[] second = line2.Split(" ");
+﻿string[] first = Console.ReadLine().Split(" ");
+string[] second = Console.ReadLine().Split(" ");
 int length = (first.Length < second.Length) ? (first.Length) : (second.Length);
 int counter_start = -1;
 for (int i = 0; i < length; i++)

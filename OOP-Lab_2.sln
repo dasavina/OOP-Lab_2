@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Largest-common-end", "1-Largest-common-end\1-Largest-common-end.csproj", "{68FB8EE8-2416-42AF-AD7A-AFAF22AFA357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-Largest-common-end", "1-Largest-common-end\1-Largest-common-end.csproj", "{68FB8EE8-2416-42AF-AD7A-AFAF22AFA357}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-rotate-and-sum", "2-rotate-and-sum\2-rotate-and-sum.csproj", "{4D44DB27-3E03-4CB8-8952-5CE53A16FBB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-rotate-and-sum", "2-rotate-and-sum\2-rotate-and-sum.csproj", "{4D44DB27-3E03-4CB8-8952-5CE53A16FBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Fold and Sum", "3. Fold and Sum\3. Fold and Sum.csproj", "{224CD109-07FC-4492-9CCD-F06345977731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Sieve of Eratosthenes", "4. Sieve of Eratosthenes\4. Sieve of Eratosthenes.csproj", "{AB76C02C-D609-498C-B75F-E4094286DCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Compare Char Arrays", "5. Compare Char Arrays\5. Compare Char Arrays.csproj", "{96F7A124-C00B-4427-A711-F985F84B44A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Index of Letters", "9. Index of Letters\9. Index of Letters.csproj", "{E7DF2150-0EDA-4E6B-8677-EA5EC4F31263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Max Sequence of Equal Elements", "Max Sequence of Equal Elements\6. Max Sequence of Equal Elements.csproj", "{3A9959BF-00B7-4FC4-B6E2-5646679DAAC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{4D44DB27-3E03-4CB8-8952-5CE53A16FBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D44DB27-3E03-4CB8-8952-5CE53A16FBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D44DB27-3E03-4CB8-8952-5CE53A16FBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224CD109-07FC-4492-9CCD-F06345977731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224CD109-07FC-4492-9CCD-F06345977731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224CD109-07FC-4492-9CCD-F06345977731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224CD109-07FC-4492-9CCD-F06345977731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB76C02C-D609-498C-B75F-E4094286DCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB76C02C-D609-498C-B75F-E4094286DCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB76C02C-D609-498C-B75F-E4094286DCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB76C02C-D609-498C-B75F-E4094286DCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F7A124-C00B-4427-A711-F985F84B44A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F7A124-C00B-4427-A711-F985F84B44A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F7A124-C00B-4427-A711-F985F84B44A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F7A124-C00B-4427-A711-F985F84B44A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DF2150-0EDA-4E6B-8677-EA5EC4F31263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DF2150-0EDA-4E6B-8677-EA5EC4F31263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DF2150-0EDA-4E6B-8677-EA5EC4F31263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DF2150-0EDA-4E6B-8677-EA5EC4F31263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9959BF-00B7-4FC4-B6E2-5646679DAAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9959BF-00B7-4FC4-B6E2-5646679DAAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9959BF-00B7-4FC4-B6E2-5646679DAAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9959BF-00B7-4FC4-B6E2-5646679DAAC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

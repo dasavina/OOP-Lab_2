@@ -1,5 +1,4 @@
-﻿string array = Console.ReadLine();
-string[] initial = (array.Split(" "));
+﻿string[] initial = (Console.ReadLine().Split(" "));
 int k = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[initial.Length];
 

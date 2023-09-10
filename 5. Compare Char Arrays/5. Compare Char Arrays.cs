@@ -26,11 +26,11 @@ for (int i = 0;i < length; i++)
 
 if (first)
 {
-    Console.WriteLine(array1.ToString);
-    Console.WriteLine(array2.ToString);
+    Console.WriteLine(array1);
+    Console.WriteLine(array2);
 }
 else
 {
-    Console.WriteLine(array2.ToString);
-    Console.WriteLine(array1.ToString);
+    Console.WriteLine(array2);
+    Console.WriteLine(array1);
 }

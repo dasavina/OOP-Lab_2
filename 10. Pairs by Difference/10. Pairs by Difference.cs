@@ -1,5 +1,5 @@
 ﻿string[] array = Console.ReadLine().Split(" ");
-int sum = Convert.ToInt32(Console.ReadLine());
+int difference = Convert.ToInt32(Console.ReadLine());
 int counter = 0;
 bool[] taken = new bool[array.Length];
 
@@ -9,13 +9,14 @@ for (int i = 0; i < array.Length; i++)
     {
         for (int j = i++; j < array.Length; j++)
         {
-            if (!taken[j] && j.Equals(array[i]))
+            if (!taken[j] && Convert.ToInt32(array[i])- Convert.ToInt32(array[j])==difference)
             {
                 taken[j] = true;
+                taken[i] = true;
                 counter++;
             }
         }
     }
 }
 
-Console.WriteLine();
+Console.WriteLine(counter);

@@ -8,7 +8,7 @@ for (int i = 0; i < initial.Length; i++)
 int start = 0, len = 1, best_start = 0, best_len = 0;
 for (int pos = 1; pos < numbers.Length; pos++)
 {
-    if (numbers[pos] - numbers[pos-1]==1)
+    if (numbers[pos] - numbers[pos - 1] == 1)
     {
         len++;
     }
